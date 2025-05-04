@@ -1,6 +1,6 @@
 # Ignitor Game Launcher - Website
 
-![Ignitor Banner](public/home.png)
+![Ignitor Banner](public/screenshots/home.png)
 
 ## 🎮 About Ignitor
 
