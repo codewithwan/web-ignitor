@@ -1,8 +1,8 @@
 "use client";
 
-import { BarChart3, Gamepad2, Rocket, Camera, X, Download, Check } from "lucide-react";
-import Image from "next/image";
+import { BarChart3, Gamepad2, Rocket, Camera, Download, Check } from "lucide-react";
 import { useState } from "react";
+import NextImage from "next/image";
 
 export default function Home() {
   const [showDownloadPopup, setShowDownloadPopup] = useState(false);
@@ -36,15 +36,6 @@ export default function Home() {
       {showDownloadPopup && (
         <div className="fixed inset-0 bg-black/60 flex items-center justify-center z-50 p-4" onClick={closePopup}>
           <div className="neo-shadow bg-white p-6 max-w-lg w-full relative border-4 border-black transform rotate-[-1deg] animate-fadeIn" onClick={(e) => e.stopPropagation()}>
-            {/* <button 
-              onClick={closePopup}
-              className="absolute top-4 right-4 w-10 h-10 bg-[#FF5252] flex items-center justify-center border-2 border-black hover:bg-black hover:text-white transition-colors cursor-pointer"
-              type="button"
-              aria-label="Close popup"
-            >
-              <X className="w-6 h-6" />
-            </button> */}
-            
             <div className="mb-6 transform -rotate-1">
               <h3 className="text-2xl font-black font-[family-name:var(--font-archivo)] mb-2 text-black">Download Ignitor Launcher</h3>
               <div className="w-full h-1 bg-black"></div>
@@ -57,7 +48,7 @@ export default function Home() {
                 </div>
                 <div>
                   <p className="text-lg font-bold mb-2 text-black">Ready to ignite your gaming experience?</p>
-                  <p className="text-[#1F1F1F]">You're about to download Ignitor Launcher v1.2.0 for Windows. The download will begin immediately after confirmation.</p>
+                  <p className="text-[#1F1F1F]">You&apos;re about to download Ignitor Launcher v1.2.0 for Windows. The download will begin immediately after confirmation.</p>
                 </div>
               </div>
               
@@ -151,11 +142,11 @@ export default function Home() {
                   🎮
                 </div>
                 <div className="w-full h-full bg-[#F7F9FC] flex items-center justify-center overflow-hidden">
-                  {/* Use next/image for better performance when possible */}
-                  <img
-                    src="home.png"
+                  <NextImage
+                    src="/home.png"
                     alt="Ignitor Game Launcher Screenshot"
-                    className="w-full h-full object-cover"
+                    className="object-cover"
+                    fill
                   />
                 </div>
               </div>
@@ -218,7 +209,7 @@ export default function Home() {
                   <h3 className="text-xl font-bold transform -rotate-1 inline-block font-[family-name:var(--font-fredoka)] text-black">Muhammad Ridwan</h3>
                   <p className="text-sm mb-4 text-[#1F1F1F] font-medium">Berfokus pada pengembangan game dan launcher game walau aslinya ga fokus fokus amat</p>
                   <div className="bg-[#FFD42A] p-3 border-3 border-black transform rotate-1 text-sm font-bold shadow-[4px_4px_0px_#000] text-black">
-                    "when yh jago.."
+                    &ldquo;when yh jago..&rdquo;
                   </div>
                 </div>
               </div>
@@ -232,7 +223,7 @@ export default function Home() {
                   <h3 className="text-xl font-bold transform -rotate-1 inline-block font-[family-name:var(--font-fredoka)] text-black">M. Syahrul Romadhon</h3>
                   <p className="text-sm mb-4 text-[#1F1F1F] font-medium">Penikmat Sepak Bola 🤤</p>
                   <div className="bg-[#FFD42A] p-3 border-3 border-black transform rotate-1 text-sm font-bold shadow-[4px_4px_0px_#000] text-black">
-                    "Jika mencari jarum dalam jerami bakar jeraminya"
+                    &ldquo;Jika mencari jarum dalam jerami bakar jeraminya&rdquo;
                   </div>
                 </div>
               </div>
@@ -246,7 +237,7 @@ export default function Home() {
                   <h3 className="text-xl font-bold transform -rotate-1 inline-block font-[family-name:var(--font-fredoka)] text-black">Dea Derika Winahyu</h3>
                   <p className="text-sm mb-4 text-[#1F1F1F] font-medium">Bertanggung jawab atas desain visual dan pengalaman pengguna yang intuitif.</p>
                   <div className="bg-[#FFD42A] p-3 border-3 border-black transform rotate-1 text-sm font-bold shadow-[4px_4px_0px_#000] text-black">
-                    "Punya 627 font, tapi selalu pakai Poppins dan Montserrat aja."
+                    &ldquo;Punya 627 font, tapi selalu pakai Poppins dan Montserrat aja.&rdquo;
                   </div>
                 </div>
               </div>
@@ -260,7 +251,7 @@ export default function Home() {
                   <h3 className="text-xl font-bold transform -rotate-1 inline-block font-[family-name:var(--font-fredoka)] text-black">Kartika Yuliana</h3>
                   <p className="text-sm mb-4 text-[#1F1F1F] font-medium">Fokus pada pengembangan mekanik permainan dan integrasi fitur interaktif.</p>
                   <div className="bg-[#FFD42A] p-3 border-3 border-black transform rotate-1 text-sm font-bold shadow-[4px_4px_0px_#000] text-black">
-                    "Katanya testing game, tapi setengah hari cuma main Valorant."
+                    &ldquo;Katanya testing game, tapi setengah hari cuma main Valorant.&rdquo;
                   </div>
                 </div>
               </div>
@@ -283,11 +274,12 @@ export default function Home() {
             <div className="grid grid-cols-12 gap-4 md:gap-6">
               {/* Large Screenshot 1 */}
               <div className="col-span-12 md:col-span-8 aspect-video neo-shadow bg-white p-3 transform rotate-1 hover:rotate-0 transition-all hover:z-10 hover:scale-[1.02]">
-                <div className="w-full h-full bg-[#F7F9FC] flex items-center justify-center overflow-hidden">
-                  <img
-                    src="home.png"
+                <div className="w-full h-full bg-[#F7F9FC] flex items-center justify-center overflow-hidden relative">
+                  <NextImage
+                    src="/home.png"
                     alt="Ignitor Dashboard"
-                    className="w-full h-full object-cover"
+                    className="object-cover"
+                    fill
                   />
                 </div>
                 <div className="absolute -bottom-3 -right-3 bg-[#FF5252] px-3 py-1 text-white font-bold transform rotate-[-5deg] shadow-[2px_2px_0px_#000] text-sm border-2 border-black">
@@ -297,11 +289,12 @@ export default function Home() {
               
               {/* Small Screenshot 2 */}
               <div className="col-span-6 md:col-span-4 aspect-square neo-shadow bg-white p-3 transform -rotate-2 hover:rotate-0 transition-all hover:z-10 hover:scale-[1.02]">
-                <div className="w-full h-full bg-[#F7F9FC] flex items-center justify-center overflow-hidden">
-                  <img
-                    src="import.png"
+                <div className="w-full h-full bg-[#F7F9FC] flex items-center justify-center overflow-hidden relative">
+                  <NextImage
+                    src="/import.png"
                     alt="Game Import"
-                    className="w-full h-full object-cover"
+                    className="object-cover"
+                    fill
                   />
                 </div>
                 <div className="absolute -bottom-3 -left-3 bg-[#2FB8AC] px-3 py-1 text-white font-bold transform rotate-[-5deg] shadow-[2px_2px_0px_#000] text-sm border-2 border-black">
@@ -311,11 +304,12 @@ export default function Home() {
               
               {/* Small Screenshot 3 */}
               <div className="col-span-6 md:col-span-3 aspect-[3/4] neo-shadow bg-white p-3 transform rotate-3 hover:rotate-0 transition-all hover:z-10 hover:scale-[1.02]">
-                <div className="w-full h-full bg-[#F7F9FC] flex items-center justify-center overflow-hidden">
-                  <img
-                    src="library.png"
+                <div className="w-full h-full bg-[#F7F9FC] flex items-center justify-center overflow-hidden relative">
+                  <NextImage
+                    src="/library.png"
                     alt="Game Library"
-                    className="w-full h-full object-cover"
+                    className="object-cover"
+                    fill
                   />
                 </div>
                 <div className="absolute -top-3 -right-3 bg-[#FFD42A] px-3 py-1 text-black font-bold transform rotate-[5deg] shadow-[2px_2px_0px_#000] text-sm border-2 border-black">
@@ -325,11 +319,12 @@ export default function Home() {
               
               {/* Medium Screenshot 4 */}
               <div className="col-span-12 md:col-span-5 aspect-video neo-shadow bg-white p-3 transform -rotate-1 hover:rotate-0 transition-all hover:z-10 hover:scale-[1.02]">
-                <div className="w-full h-full bg-[#F7F9FC] flex items-center justify-center overflow-hidden">
-                  <img
-                    src="stats.png"
+                <div className="w-full h-full bg-[#F7F9FC] flex items-center justify-center overflow-hidden relative">
+                  <NextImage
+                    src="/stats.png"
                     alt="Gaming Statistics"
-                    className="w-full h-full object-cover"
+                    className="object-cover"
+                    fill
                   />
                 </div>
                 <div className="absolute -top-3 -left-3 bg-[#3B82F6] px-3 py-1 text-white font-bold transform rotate-[-5deg] shadow-[2px_2px_0px_#000] text-sm border-2 border-black">
@@ -339,11 +334,12 @@ export default function Home() {
               
               {/* Small Screenshot 5 */}
               <div className="col-span-6 md:col-span-4 aspect-square neo-shadow bg-white p-3 transform rotate-2 hover:rotate-0 transition-all hover:z-10 hover:scale-[1.02]">
-                <div className="w-full h-full bg-[#F7F9FC] flex items-center justify-center overflow-hidden">
-                  <img
-                    src="store.png"
+                <div className="w-full h-full bg-[#F7F9FC] flex items-center justify-center overflow-hidden relative">
+                  <NextImage
+                    src="/store.png"
                     alt="Store"
-                    className="w-full h-full object-cover"
+                    className="object-cover"
+                    fill
                   />
                 </div>
                 <div className="absolute -bottom-3 -right-3 bg-[#FF7B7B] px-3 py-1 text-white font-bold transform rotate-[5deg] shadow-[2px_2px_0px_#000] text-sm border-2 border-black">

@@ -1,8 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ignitor Game Launcher - Website
 
-## Getting Started
+![Ignitor Banner](public/home.png)
 
-First, run the development server:
+## 🎮 About Ignitor
+
+Ignitor is a modern game launcher with Neo Brutalism aesthetics that allows users to organize, play, and track their gaming sessions with style. This website serves as an information landing page and showcase for the Ignitor Game Launcher desktop application.
+
+### 🚀 Main Features
+- **Game Library**: Organize and access all your games in one place with our intuitive library system
+- **Gameplay Stats**: Track your gaming habits, playtime, and achievements with detailed statistics
+- **Fast Launch**: Start your games instantly with our optimized launching system
+
+## 📸 Gallery
+
+This website showcases various screenshots from the Ignitor Game Launcher application, including:
+- Main dashboard
+- Game import feature
+- Game library
+- Gaming statistics
+- Digital store
+
+## 🛠️ Technology
+
+This project is developed using:
+- [Next.js](https://nextjs.org) - React framework
+- [Tailwind CSS](https://tailwindcss.com) - For styling
+- [Lucide Icons](https://lucide.dev) - For icons
+
+## 🚀 Getting Started
+
+Run the development server:
 
 ```bash
 npm run dev
@@ -14,23 +41,13 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Access [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🔗 Important Links
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- [Demo Website](https://ignitor.codewithwan.tech)
+- [GitHub Repo (Desktop App)](https://github.com/codewithwan/ignitor-electron)
 
-## Learn More
+## 📝 License
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+© 2024 Ignitor Game Launcher Team. All rights reserved.
