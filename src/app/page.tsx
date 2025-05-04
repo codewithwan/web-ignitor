@@ -3,6 +3,7 @@
 import { BarChart3, Gamepad2, Rocket, Camera, Download, Check } from "lucide-react";
 import { useState } from "react";
 import NextImage from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   const [showDownloadPopup, setShowDownloadPopup] = useState(false);
@@ -96,6 +97,7 @@ export default function Home() {
               <li><a href="#features" className="font-bold hover:underline text-black">Features</a></li>
               <li><a href="#team" className="font-bold hover:underline text-black">Team</a></li>
               <li><a href="#gallery" className="font-bold hover:underline text-black">Gallery</a></li>
+              <li><Link href="/game-list" className="font-bold hover:underline text-black">Games</Link></li>
               <li>
                 <a
                   href="#download"
@@ -143,7 +145,7 @@ export default function Home() {
                 </div>
                 <div className="w-full h-full bg-[#F7F9FC] flex items-center justify-center overflow-hidden">
                   <NextImage
-                    src="/home.png"
+                    src="/screenshots/home.png"
                     alt="Ignitor Game Launcher Screenshot"
                     className="object-cover"
                     fill
@@ -207,7 +209,7 @@ export default function Home() {
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold transform -rotate-1 inline-block font-[family-name:var(--font-fredoka)] text-black">Muhammad Ridwan</h3>
-                  <p className="text-sm mb-4 text-[#1F1F1F] font-medium">Berfokus pada pengembangan game dan launcher game walau aslinya ga fokus fokus amat</p>
+                  <p className="text-sm mb-4 text-[#1F1F1F] font-medium">Aslinya wengdev garis keras</p>
                   <div className="bg-[#FFD42A] p-3 border-3 border-black transform rotate-1 text-sm font-bold shadow-[4px_4px_0px_#000] text-black">
                     &ldquo;when yh jago..&rdquo;
                   </div>
@@ -235,9 +237,9 @@ export default function Home() {
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold transform -rotate-1 inline-block font-[family-name:var(--font-fredoka)] text-black">Dea Derika Winahyu</h3>
-                  <p className="text-sm mb-4 text-[#1F1F1F] font-medium">Bertanggung jawab atas desain visual dan pengalaman pengguna yang intuitif.</p>
+                  <p className="text-sm mb-4 text-[#1F1F1F] font-medium">Ngerjain apa yang bisa dikerjain</p>
                   <div className="bg-[#FFD42A] p-3 border-3 border-black transform rotate-1 text-sm font-bold shadow-[4px_4px_0px_#000] text-black">
-                    &ldquo;Punya 627 font, tapi selalu pakai Poppins dan Montserrat aja.&rdquo;
+                    &ldquo;2in&rdquo;
                   </div>
                 </div>
               </div>
@@ -249,9 +251,9 @@ export default function Home() {
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold transform -rotate-1 inline-block font-[family-name:var(--font-fredoka)] text-black">Kartika Yuliana</h3>
-                  <p className="text-sm mb-4 text-[#1F1F1F] font-medium">Fokus pada pengembangan mekanik permainan dan integrasi fitur interaktif.</p>
+                  <p className="text-sm mb-4 text-[#1F1F1F] font-medium">Katanya si ngikut aja</p>
                   <div className="bg-[#FFD42A] p-3 border-3 border-black transform rotate-1 text-sm font-bold shadow-[4px_4px_0px_#000] text-black">
-                    &ldquo;Katanya testing game, tapi setengah hari cuma main Valorant.&rdquo;
+                    &ldquo;jujur gatau aku&rdquo;
                   </div>
                 </div>
               </div>
@@ -276,7 +278,7 @@ export default function Home() {
               <div className="col-span-12 md:col-span-8 aspect-video neo-shadow bg-white p-3 transform rotate-1 hover:rotate-0 transition-all hover:z-10 hover:scale-[1.02]">
                 <div className="w-full h-full bg-[#F7F9FC] flex items-center justify-center overflow-hidden relative">
                   <NextImage
-                    src="/home.png"
+                    src="/screenshots/home.png"
                     alt="Ignitor Dashboard"
                     className="object-cover"
                     fill
@@ -291,7 +293,7 @@ export default function Home() {
               <div className="col-span-6 md:col-span-4 aspect-square neo-shadow bg-white p-3 transform -rotate-2 hover:rotate-0 transition-all hover:z-10 hover:scale-[1.02]">
                 <div className="w-full h-full bg-[#F7F9FC] flex items-center justify-center overflow-hidden relative">
                   <NextImage
-                    src="/import.png"
+                    src="/screenshots/import.png"
                     alt="Game Import"
                     className="object-cover"
                     fill
@@ -306,7 +308,7 @@ export default function Home() {
               <div className="col-span-6 md:col-span-3 aspect-[3/4] neo-shadow bg-white p-3 transform rotate-3 hover:rotate-0 transition-all hover:z-10 hover:scale-[1.02]">
                 <div className="w-full h-full bg-[#F7F9FC] flex items-center justify-center overflow-hidden relative">
                   <NextImage
-                    src="/library.png"
+                    src="/screenshots/library.png"
                     alt="Game Library"
                     className="object-cover"
                     fill
@@ -321,7 +323,7 @@ export default function Home() {
               <div className="col-span-12 md:col-span-5 aspect-video neo-shadow bg-white p-3 transform -rotate-1 hover:rotate-0 transition-all hover:z-10 hover:scale-[1.02]">
                 <div className="w-full h-full bg-[#F7F9FC] flex items-center justify-center overflow-hidden relative">
                   <NextImage
-                    src="/stats.png"
+                    src="/screenshots/stats.png"
                     alt="Gaming Statistics"
                     className="object-cover"
                     fill
@@ -336,7 +338,7 @@ export default function Home() {
               <div className="col-span-6 md:col-span-4 aspect-square neo-shadow bg-white p-3 transform rotate-2 hover:rotate-0 transition-all hover:z-10 hover:scale-[1.02]">
                 <div className="w-full h-full bg-[#F7F9FC] flex items-center justify-center overflow-hidden relative">
                   <NextImage
-                    src="/store.png"
+                    src="/screenshots/store.png"
                     alt="Store"
                     className="object-cover"
                     fill
@@ -359,12 +361,20 @@ export default function Home() {
             <p className="text-xl mb-10 max-w-2xl mx-auto text-white font-bold">
               Download Ignitor now and experience a new way to manage and enjoy your games.
             </p>
-            <button 
-              onClick={handleDownloadClick}
-              className="bg-white px-10 py-5 neo-button hover:shadow-[10px_10px_0px_#000] shadow-[8px_8px_0px_#000] text-xl text-black"
-            >
-              Download for Windows
-            </button>
+            <div className="flex flex-col md:flex-row justify-center gap-5">
+              <button 
+                onClick={handleDownloadClick}
+                className="bg-white px-10 py-5 neo-button hover:shadow-[10px_10px_0px_#000] shadow-[8px_8px_0px_#000] text-xl text-black"
+              >
+                Download for Windows
+              </button>
+              <Link 
+                href="/game-list"
+                className="bg-black px-10 py-5 neo-button hover:shadow-[10px_10px_0px_#FFD42A] shadow-[8px_8px_0px_#FFD42A] text-xl text-white"
+              >
+                Browse Games
+              </Link>
+            </div>
           </div>
         </section>
       </main>
@@ -378,7 +388,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-black transform rotate-1 font-[family-name:var(--font-archivo)]">Ignitor</h3>
             </div>
-            <p className="text-sm text-gray-400">&copy; 2024 Ignitor Game Launcher Team</p>
+            <p className="text-sm text-gray-400">&copy; {new Date().getFullYear()} Ignitor Game Launcher Team</p>
           </div>
           <div className="flex gap-8">
             <a href="#" className="hover:text-[#FF5252]">Privacy</a>

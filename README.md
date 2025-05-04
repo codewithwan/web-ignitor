@@ -48,6 +48,4 @@ Access [http://localhost:3000](http://localhost:3000) with your browser to see t
 - [Demo Website](https://ignitor.codewithwan.tech)
 - [GitHub Repo (Desktop App)](https://github.com/codewithwan/ignitor-electron)
 
-## 📝 License
 
-© 2024 Ignitor Game Launcher Team. All rights reserved.
