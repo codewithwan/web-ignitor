@@ -36,12 +36,12 @@ const games: Game[] = [
   },
   {
     id: 3,
-    title: "Food Sorter",
+    title: "Pick & Feed",
     description: "An educational game that teaches children to distinguish between healthy real food and unhealthy junk food through fun sorting activities.",
-    thumbnail: "/games/food-sorter.jpg",
+    thumbnail: "/games/pickandfeed.png",
     size: "150 MB",
     category: "Strategy",
-    downloadUrl: "/downloads/food-sorter.zip"
+    downloadUrl: "http://console.codewithwan.my.id/api/v1/download-shared-object/aHR0cDovLzEyNy4wLjAuMTo5MDAwL2dhbWVzL1BpY2slMjAlMjYlMjBGZWVkLnppcD9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPU9UMk5PTVUwWFUzNU5XRjVKWk4xJTJGMjAyNTA1MDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNTA0VDE3MjkzOFomWC1BbXotRXhwaXJlcz00MzE5OSZYLUFtei1TZWN1cml0eS1Ub2tlbj1leUpoYkdjaU9pSklVelV4TWlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKaFkyTmxjM05MWlhraU9pSlBWREpPVDAxVk1GaFZNelZPVjBZMVNscE9NU0lzSW1WNGNDSTZNVGMwTmpNNU1USTBNU3dpY0dGeVpXNTBJam9pWVdSdGFXNGlmUS5TUVVnaVRMLUUtbEZtSTBTaW5tYlNobEhfMnVHSVF1TlczNkhmZUJzbkhmdEdPV3lYRm9vdW43UV9GMDB6UlY0azhnWWo3Mkl4Q3ZEQk9QMlVPcXNYZyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmdmVyc2lvbklkPW51bGwmWC1BbXotU2lnbmF0dXJlPTNiZmU0MmY5NWZlZjE2MWEyYTA4Y2QxNjU0M2M4MGE1NmI2Y2I0OGRjZTYwOGRiYzM2NjU1NTVlMTVhNjkwOTY"
   }
 ];
 
