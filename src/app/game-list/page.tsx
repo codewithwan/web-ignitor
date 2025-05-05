@@ -20,10 +20,10 @@ const games: Game[] = [
     id: 1,
     title: "ASEAN Greetings",
     description: "An educational game that introduces you to basic greetings and phrases from ASEAN countries.",
-    thumbnail: "/games/asean-greetings.jpg",
-    size: "20 MB",
+    thumbnail: "/games/asean.png",
+    size: "35 MB",
     category: "Educational",
-    downloadUrl: "/downloads/asean-greetings.zip"
+    downloadUrl: ""
   },
   {
     id: 2,
@@ -32,16 +32,16 @@ const games: Game[] = [
     thumbnail: "/games/soccpong.png",
     size: "40 MB ",
     category: "Sports",
-    downloadUrl: "http://console.codewithwan.my.id/api/v1/download-shared-object/aHR0cDovLzEyNy4wLjAuMTo5MDAwL2dhbWVzL1NvY2NQb25nLnppcD9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPU9UMk5PTVUwWFUzNU5XRjVKWk4xJTJGMjAyNTA1MDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNTA0VDEyNTQyNlomWC1BbXotRXhwaXJlcz00MzIwMCZYLUFtei1TZWN1cml0eS1Ub2tlbj1leUpoYkdjaU9pSklVelV4TWlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKaFkyTmxjM05MWlhraU9pSlBWREpPVDAxVk1GaFZNelZPVjBZMVNscE9NU0lzSW1WNGNDSTZNVGMwTmpNNU1USTBNU3dpY0dGeVpXNTBJam9pWVdSdGFXNGlmUS5TUVVnaVRMLUUtbEZtSTBTaW5tYlNobEhfMnVHSVF1TlczNkhmZUJzbkhmdEdPV3lYRm9vdW43UV9GMDB6UlY0azhnWWo3Mkl4Q3ZEQk9QMlVPcXNYZyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmdmVyc2lvbklkPW51bGwmWC1BbXotU2lnbmF0dXJlPTM5ZjQ4OGNhM2E3MTRjOGM1NTc4ZDRhYWQyNzIyNjFkNjM0N2FlY2M3YjEwMDg3YWJjMTk3YjEzZGE0NWJlNmY"
+    downloadUrl: ""
   },
   {
     id: 3,
     title: "Pick & Feed",
     description: "An educational game that teaches children to distinguish between healthy real food and unhealthy junk food through fun sorting activities.",
     thumbnail: "/games/pickandfeed.png",
-    size: "150 MB",
+    size: "42 MB",
     category: "Strategy",
-    downloadUrl: "http://console.codewithwan.my.id/api/v1/download-shared-object/aHR0cDovLzEyNy4wLjAuMTo5MDAwL2dhbWVzL1BpY2slMjAlMjYlMjBGZWVkLnppcD9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPU9UMk5PTVUwWFUzNU5XRjVKWk4xJTJGMjAyNTA1MDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNTA0VDE3MjkzOFomWC1BbXotRXhwaXJlcz00MzE5OSZYLUFtei1TZWN1cml0eS1Ub2tlbj1leUpoYkdjaU9pSklVelV4TWlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKaFkyTmxjM05MWlhraU9pSlBWREpPVDAxVk1GaFZNelZPVjBZMVNscE9NU0lzSW1WNGNDSTZNVGMwTmpNNU1USTBNU3dpY0dGeVpXNTBJam9pWVdSdGFXNGlmUS5TUVVnaVRMLUUtbEZtSTBTaW5tYlNobEhfMnVHSVF1TlczNkhmZUJzbkhmdEdPV3lYRm9vdW43UV9GMDB6UlY0azhnWWo3Mkl4Q3ZEQk9QMlVPcXNYZyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmdmVyc2lvbklkPW51bGwmWC1BbXotU2lnbmF0dXJlPTNiZmU0MmY5NWZlZjE2MWEyYTA4Y2QxNjU0M2M4MGE1NmI2Y2I0OGRjZTYwOGRiYzM2NjU1NTVlMTVhNjkwOTY"
+    downloadUrl: ""
   }
 ];
 
