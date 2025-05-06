@@ -4,7 +4,7 @@ import { Download, Search, Tag, ArrowLeft } from "lucide-react";
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import NextImage from "next/image";
-import { games, categories, Game, searchGames, getGamesByCategory } from "@/lib/games";
+import { categories, Game, searchGames } from "@/lib/games";
 import { motion, AnimatePresence } from "framer-motion";
 
 export default function GameList() {

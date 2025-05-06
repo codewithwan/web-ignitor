@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import NextImage from "next/image";
 import Link from "next/link";
-import { ArrowLeft, Download, Tag, Star, Clock, Users, Gamepad2 } from "lucide-react";
+import { Download, Tag, Clock, Users, Gamepad2 } from "lucide-react";
 import { useParams } from "next/navigation";
 import { getGameById, Game } from "@/lib/games";
 import { motion } from "framer-motion";
